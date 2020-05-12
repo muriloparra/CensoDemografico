@@ -11,10 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Api", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Api", "CensoDemografico.Api.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Domain", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Domain", "CensoDemografico.Domain.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Infra", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Infra", "CensoDemografico.Infra.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Services", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Services", "CensoDemografico.Services.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Api", "CensoDemografico.Api.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Domain", "CensoDemografico.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Infra", "CensoDemografico.Infra.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CensoDemografico.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\stone\\CensoDemografico\\backend\\CensoDemografico\\CensoDemografico.Services", "CensoDemografico.Services.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CensoDemografico.XUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

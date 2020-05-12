@@ -1,0 +1,9 @@
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\bin\Debug\netcoreapp2.2\CensoDemografico.Domain.deps.json
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\bin\Debug\netcoreapp2.2\CensoDemografico.Domain.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\bin\Debug\netcoreapp2.2\CensoDemografico.Domain.pdb
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.csproj.CoreCompileInputs.cache
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.AssemblyInfoInputs.cache
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.AssemblyInfo.cs
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.pdb
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.csprojAssemblyReference.cache

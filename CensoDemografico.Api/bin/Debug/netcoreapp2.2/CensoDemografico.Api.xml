@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CensoDemografico.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CensoDemografico.Api.Controllers.CensoController">
+            <summary>
+            Api de cadastro e estatísticas do censo demográfico 2020 versão 1.0
+            </summary>
+        </member>
+        <member name="M:CensoDemografico.Api.Controllers.CensoController.Criar(CensoDemografico.Domain.Command.CriarPessoaCommand)">
+            <summary>
+            Cadastrar uma Pessoa no Censo Demográfico
+            </summary>
+            
+            <remarks>
+            <example>
+            Exemplo de requisição:
+            
+            POST /criar
+            <code>{
+               "Nome": "Murilo",
+               "Sobrenome": "Parra",
+               "NomePai": "Mauro",
+               "SobrenomePai": "Parra",
+               "NomeMae": "Naira",
+               "SobrenomeMae": "Parra",
+               "Escolaridade": 4,   //1-Sem Instrução, 2-Ensino Fundamental, 3-Ensino Médio, 4-Superior Completo, 5-Pós-Graduado, 6-Doutorado
+               "Etnia": 1,          //1-Branco, 2-Indio, 3-Negro, 4-Pardo
+               "Genero": 2,         //1-Feminino, 2-Masculino, 3-NaoInformado
+               "Regiao": 4,         //1-CentroOeste, 2-Nordeste, 3-Norte, 4-Sudeste, 5-Sul,
+               "Filhos": [
+                   { 
+                   	"Nome": "Isabella",
+                   	"Sobrenome": "Parra"
+                   },
+                   {
+                   	"Nome": "Julia",
+                   	"Sobrenome": "Parra"
+                   },
+                   {
+                   	"Nome": "Livia",
+                   	"Sobrenome": "Parra"
+                   }
+               ]
+            }</code>
+                
+            </example>
+            </remarks>
+            <param name="command">Objeto com os dados do indivíduo a ser cadastrado no Censo</param>
+            <response code="201">Pessoa recém cadastrada</response>
+            <response code="400">Preencha todos os campos obrigatórios</response>
+        </member>
+        <member name="M:CensoDemografico.Api.Controllers.CensoController.Percentual">
+            <summary>
+            Percentual de Pessoas com Mesmo Nome de uma determinada região
+            </summary>
+            <remarks>
+            <example>
+            Exemplo de requisição:
+            
+            GET /percentual
+            <code>
+                Murilo
+            </code>
+            </example>
+            </remarks>
+            <response code="200">Retorna os percentuais por região</response>
+            <response code="400">Preencha o campo obrigatório</response>
+        </member>
+        <member name="M:CensoDemografico.Api.Controllers.CensoController.Pesquisa(CensoDemografico.Domain.Command.PesquisaCommand)">
+            <summary>
+            Pesquisa pelo número de indivíduos conforme filtro
+            </summary>
+            <remarks>
+            <example>
+            Exemplo de requisição:
+            
+            POST /pesquisar
+            <code>{
+               "Nome": "Murilo",
+               "Sobrenome": "Parra",
+               "Escolaridade": 4,  //1-Sem Instrução, 2-Ensino Fundamental, 3-Ensino Médio, 4-Superior Completo, 5-Pós-Graduado, 6-Doutorado
+               "Etnia": 1,         //1-Branco, 2-Indio, 3-Negro, 4-Pardo
+               "Genero": 2,        //1-Feminino, 2-Masculino, 3-NaoInformado
+               "Regiao": 4         //1-CentroOeste, 2-Nordeste, 3-Norte, 4-Sudeste, 5-Sul
+            }</code>
+            </example>
+            </remarks>
+            <param name="pesquisa">Objeto com os dados dos filtros a serem utilizados na pesquisa</param>
+            <response code="200">A quantidade de indivíduos</response>
+            <response code="400">Preenchimento incorreto dos campos</response>
+        </member>
+        <member name="M:CensoDemografico.Api.Controllers.CensoController.Arvore(System.String,System.String)">
+            <summary>
+            Exibe a árvore genealógica do indivíduo informado
+            </summary>
+            <remarks>
+            <example>
+            Exemplo de requisição:
+            
+            GET /arvore
+            <code>
+                Murilo
+                Parra
+            </code>
+            </example>
+            </remarks>
+            <param name="nome">Informar o nome do indivíduo</param>
+            <param name="sobrenome">Informar o sobrenome do indivíduo</param>
+            <response code="200">Retorna a árvore genealógica desse indivíduo</response>
+            <response code="404">Não existem dados para esse indivíduo</response>
+        </member>
+    </members>
+</doc>
