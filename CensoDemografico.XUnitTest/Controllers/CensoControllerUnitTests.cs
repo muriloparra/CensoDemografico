@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CensoDemografico.XUnitTest.Controllers.UnitTest
+namespace CensoDemografico.XUnitTest.Controllers
 {
     public class CensoControllerUnitTests : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
