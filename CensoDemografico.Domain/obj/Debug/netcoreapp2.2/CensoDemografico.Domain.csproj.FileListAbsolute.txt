@@ -6,4 +6,3 @@ C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\D
 C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.AssemblyInfo.cs
 C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.dll
 C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.pdb
-C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Domain\obj\Debug\netcoreapp2.2\CensoDemografico.Domain.csprojAssemblyReference.cache

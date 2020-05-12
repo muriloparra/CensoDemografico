@@ -1,0 +1,14 @@
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Services.deps.json
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Services.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Services.pdb
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Domain.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Infra.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Domain.pdb
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\bin\Release\netcoreapp2.2\CensoDemografico.Infra.pdb
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.csprojAssemblyReference.cache
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.csproj.CoreCompileInputs.cache
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.AssemblyInfoInputs.cache
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.AssemblyInfo.cs
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.csproj.CopyComplete
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.dll
+C:\stone\CensoDemografico\backend\CensoDemografico\CensoDemografico.Services\obj\Release\netcoreapp2.2\CensoDemografico.Services.pdb
