@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CensoDemografico.Domain\CensoDemografico.Domain.csproj" />
+    <ProjectReference Include="..\CensoDemografico.Infra\CensoDemografico.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
